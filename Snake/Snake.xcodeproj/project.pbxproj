@@ -56,15 +56,31 @@
 		6517572120EC01E400A2B01E /* Snake */ = {
 			isa = PBXGroup;
 			children = (
+				6517573B20EC03E300A2B01E /* Scene */,
+				6517573A20EC03B600A2B01E /* Controller */,
 				6517572220EC01E400A2B01E /* AppDelegate.swift */,
-				6517572820EC01E400A2B01E /* GameScene.swift */,
-				6517572A20EC01E400A2B01E /* GameViewController.swift */,
 				6517572C20EC01E400A2B01E /* Main.storyboard */,
 				6517572F20EC01E500A2B01E /* Assets.xcassets */,
 				6517573120EC01E500A2B01E /* LaunchScreen.storyboard */,
 				6517573420EC01E500A2B01E /* Info.plist */,
 			);
 			path = Snake;
+			sourceTree = "<group>";
+		};
+		6517573A20EC03B600A2B01E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6517572A20EC01E400A2B01E /* GameViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6517573B20EC03E300A2B01E /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				6517572820EC01E400A2B01E /* GameScene.swift */,
+			);
+			path = Scene;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
