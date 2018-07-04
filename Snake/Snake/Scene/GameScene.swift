@@ -54,7 +54,6 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     }
 
     func grouSnake(){
-        guard let tail = snake.last else {return}
         let point = createYellowPoint(x: 1000, y: 1000)
         addChild(point.node)
         snake.append(point)
